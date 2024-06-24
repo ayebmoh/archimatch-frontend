@@ -1,0 +1,23 @@
+.rdp-day_today:not(.rdp-day_outside):not(.rdp-day_selected) {
+  color: #f65858;
+}
+.rdp-day_today:not(.rdp-day_outside):hover {
+  color: white;
+}
+.rdp-day_selected {
+  background-color: #f65858;
+}
+.rdp-day_selected:hover {
+  background-color: #f65858;
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  background-color: #f65858;
+  color: white;
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected):not(
+    .rdp-day_outside
+  ):hover {
+  color: "white";
+}

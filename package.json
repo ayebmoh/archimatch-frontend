@@ -1,0 +1,57 @@
+{
+  "name": "archimatch-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@boiseitguru/cookie-cutter": "^0.2.3",
+    "@heroicons/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.8",
+    "@react-pdf/renderer": "^3.4.4",
+    "@tanstack/react-query": "^5.18.0",
+    "@tanstack/react-query-devtools": "^5.18.0",
+    "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "country-flag-icons": "^1.5.11",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^3.3.1",
+    "firebase": "^10.12.2",
+    "formik": "^2.4.5",
+    "heroicons": "^2.1.1",
+    "js-cookie": "^3.0.5",
+    "next": "14.1.0",
+    "next-client-cookies": "^1.1.0",
+    "react": "^18",
+    "react-day-picker": "^8.10.0",
+    "react-dom": "^18",
+    "react-icons": "^5.2.0",
+    "react-pdf": "^8.0.2",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.4",
+    "slick-carousel": "^1.8.1",
+    "tailwind-merge": "^2.2.1",
+    "use-react-countries": "^2.0.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^13.5.6",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.0"
+  },
+  "engines": {
+    "node": "18.17.1"
+  }
+}
